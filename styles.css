@@ -1,55 +1,62 @@
-nav {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
     background-color: #202020;
-    margin: -20px -8px -20px -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+}
+.nav-links {
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+h4 {
+    color: white;
 }
 .text-white {
     color: white;
 }
-.text-center {
+h3 {
     text-align: center;
+    padding-bottom: 50px;
 }
-ul {
-    list-style-type: none;
-}
-li {
-    display: inline-block;
-    padding: 5px;
-}
-.image-border {
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 10%;
-}
-.bg-1 {
-    background-image: url("images/Skyline.jpg");
+.hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/Skyline.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: scroll;
-    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    height: 75%;
+}
+.hero-text {
     color: white;
     text-align: center;
-    padding: 70px 0px 150px 0px;
-    margin: 0px -8px 0px -8px;
-}  
-.bg-2 {
-    text-align: center;
-    padding: 50px 0px 50px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-.text-padding {
-    padding: 0px 30px 0px 30px;
+.bg-2 {
+    padding: 50px;
 }
 .bg-4 {
     background-color:whitesmoke;
-    padding: 90px 0px 90px 0px;
-    margin: 0px -8px 0px -8px;
+    padding: 30px 0px 30px 0px;
 }
 .bg-5 {
     color: white;
     background-color: #202020;
     text-align: center;
-    padding: 30px 0px 20px 0px;
-    margin: 1px -8px -10px -8px;
+    padding: 5px 0px;
 }
 .grid-container {
     display: grid;
@@ -61,10 +68,7 @@ li {
     justify-content: center;
 }
 .icon-img {
-    width: 100px;
-    height: 100px;
-}
-.btm-padding {
-    padding-bottom: 50px;
+    width: 50px;
+    height: 50px;
 }
 
