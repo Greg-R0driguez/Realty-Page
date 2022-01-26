@@ -1,4 +1,6 @@
-# Mock real estate website.
+# Mock real estate website.   
 
-Side project to practice building a static website.  
+➡️  https://greg-r0driguez.github.io/realty_page/
+
+Side project to practice building a static website.
 
